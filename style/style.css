@@ -45,6 +45,7 @@ p{
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 62.5rem;
+    position: relative;
 }
 
 .introducao {
@@ -130,4 +131,15 @@ p{
 
 .subtitulo {
     background-image: url(onda.svg);
+}
+
+.introducao::before {
+    content: " ";
+    display: block;
+    width: 3.5rem;
+    height: 0.25rem;
+    background-color: #ee2211;
+    position: absolute;
+    top: 1.25rem;
+    right: -1.8rem;
 }
