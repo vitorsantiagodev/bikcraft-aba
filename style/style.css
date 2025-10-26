@@ -1,11 +1,11 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
+    margin: 0rem;
     background-color: #f7f7f7;
     display: grid;
-    gap: 60px;
+    gap: 3.75rem;
     justify-items: center;
-    margin-top: 60px;
+    margin-top: 3.75rem;
 }
 
 img {
@@ -18,25 +18,25 @@ a {
 }
 
 p, h1, h2, h3 {
-    margin: 0px;
+    margin: 0rem;
 }
 
 p{
-    font-size: 20px;
-    line-height: 1.3;
+    font-size: 1.25rem;
+    line-height: 1.3rem;
 }
 
 .menu {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 1.25rem;
     justify-content: center;
 }
 
 .menu a {
     background-color: #ffffff;
-    padding: 15px 30px;
-    border-radius: 4px;
+    padding: 1rem 1.9rem;
+    border-radius: 0.2rem;
     color: black;
     text-transform: uppercase;
 }
@@ -44,57 +44,57 @@ p{
 .conteudo {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 1000px;
+    max-width: 62.5rem;
 }
 
 .introducao {
     background-color: white;
-    padding: 40px;
+    padding: 2.5rem;
     text-align: right;
     position: relative;
     display: grid;
-    gap: 20px;
+    gap: 1.25rem;
     align-content: center;
     justify-items: end;
 }
 
 .detalhe {
-    width: 60px;
-    height: 4px;
+    width: 3.75rem;
+    height: 0,25rem;
     background-color: #ee2211;
     display: inline-block;
     position: absolute;
-    top: 30px;
-    right: -30px;
+    top: 1.9rem;
+    right: -1.9rem;
 }
 
 .botao {
     background-color: #ee2211;
     color: #fff;
-    padding: 15px 30px;
-    border-radius: 4px;
+    padding: 0.9rem 1.9rem;
+    border-radius: 0.25rem;
     text-transform: uppercase;
 }
 
 .subtitulo {
-    font-size: 64px;
+    font-size: 4rem;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.2);
     text-align: right;
-    padding: 40px;
+    padding:  2.5rem;
     align-self: center;
 }
 
 .vantagens {
     background: #fff;
-    padding: 40px;
+    padding: 2.5rem;
 }
 
 .vantagens-item {
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 10px 20px;
-    padding: 20px;
+    gap: 0.62em 1.25em;
+    padding: 1.25em;
 }
 
 .vantagens-item p {
@@ -105,6 +105,29 @@ p{
     background-color: #fff;
     width: 100%;
     text-align: center;
-    padding: 40px;
+    padding: 2.5rem;
     box-sizing: border-box;
+}
+
+.menu-lista:hover {
+    outline: 2px solid #ee2211;
+    margin: 0;
+}
+
+.botao:hover {
+    background-color: #9b190e;
+}
+
+.vantagens-item:hover {
+    border-left: 4px solid #ee2211;
+}
+
+.vantagens-item:nth-child(odd) {
+    background-color: #f7f7f7;
+    margin: 0;
+
+}
+
+.subtitulo {
+    background-image: url(onda.svg);
 }
